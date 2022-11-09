@@ -16,9 +16,6 @@ class Database(metaclass=Singleton):
         self.db_name = db_name
         self.con = sqlite3.connect(self.db_name)
 
-    # fields = {"title": "test", "status": 0}
-
-    # insert("tasks", title="test", status=0)
 
     def insert(self, table_name: str, fields):
         keys = []
