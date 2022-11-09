@@ -29,13 +29,6 @@ def main():
     # cur.execute('ALTER TABLE tasks ADD COLUMN id PRIMARY KEY')
     # conn.commit()
 
-    # cur.execute("""
-    # INSERT INTO tasks(title) VALUES
-    #     ('Test Title 1'),
-    #     ('Test Title 2')
-    # """)
-    # conn.commit()
-
     # res = cur.execute('SELECT name from sqlite_master where type="table"')
     # db1 = Database('todo.db')
     # db2 = Database('todo.db')
